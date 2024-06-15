@@ -10,6 +10,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+Functionalities:
+*Add new tasks (Empty tasks cannot be added.)
+
 How the website works: 
 
 https://github.com/Atharva-Garud/mtm_frontend_Atharva-Garud/assets/115423113/e4c92273-d08d-4765-a776-f930ca90067c
