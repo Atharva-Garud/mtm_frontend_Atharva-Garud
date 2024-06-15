@@ -1,3 +1,6 @@
+The webapp is available to use directly on following url:
+https://mtm-frontend-atharva-garud.vercel.app/
+
 In the project directory, you can run:
 `npm start`
 
