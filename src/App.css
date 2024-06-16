@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-image: url('/public/travel.png'); 
   background-size: cover;
@@ -111,3 +112,55 @@ h1 {
   cursor: pointer;
 }
  
+@media (max-width: 768px) {
+  .TodoWrapper {
+    padding: 1rem;
+    margin: 10vh auto 0;
+  }
+
+  .todo-input {
+    width: calc(100% - 2rem); /* Adjust to fit within padding */
+  }
+
+  .todo-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .Todo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fa-trash {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    background-attachment: scroll;
+  }
+
+  .TodoWrapper {
+    padding: 0.75rem;
+    margin: 8vh auto 0;
+  }
+
+  .todo-input {
+    width: calc(100% - 1.5rem); /* Adjust to fit within padding */
+  }
+
+  .todo-btn {
+    padding: 0.5rem;
+  }
+
+  .Todo {
+    padding: 0.5rem;
+  }
+}
